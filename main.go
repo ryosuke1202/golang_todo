@@ -26,12 +26,16 @@ func main() {
 	*/
 
 	u, _ := models.GetUser(2)
-	fmt.Println(u)
-	u.Name = "henkou2"
-	u.Email = "henkou2@henkou.com"
+	/*
+		fmt.Println(u)
+		u.Name = "henkou2"
+		u.Email = "henkou2@henkou.com"
 
-	u.UpdateUser()
-	u, _ = models.GetUser(u.ID)
-	fmt.Println(u)
+		u.UpdateUser()
+		u, _ = models.GetUser(u.ID)
+		fmt.Println(u)
+	*/
+
+	u.DeleteUser()
 
 }
