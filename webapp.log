@@ -1,3 +1,4 @@
 2022/07/14 00:40:58 main.go:16: test
 2022/07/14 00:52:12 main.go:16: test
 2022/07/14 00:53:52 main.go:16: testtest
+2022/07/16 22:21:49 main.go:46: sql: no rows in result set
